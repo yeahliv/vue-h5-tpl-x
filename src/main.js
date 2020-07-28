@@ -4,6 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import './style/base.css'
+import { get, post } from './utils/http'
+import api from './api/index'
+
+Vue.prototype.$get = get
+Vue.prototype.$post = post
+Vue.prototype.$api = api
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

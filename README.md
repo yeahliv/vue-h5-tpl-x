@@ -1,6 +1,6 @@
 # vue-h5-tpl-x
 
-> A vue h5 project
+> A vue h5 project template
 
 ## Build Setup
 
