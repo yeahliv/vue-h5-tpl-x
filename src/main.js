@@ -8,6 +8,10 @@ import './style/base.css'
 import { get, post } from './utils/http'
 import api from './api/index'
 
+// If you need real machine debugging, turn vconsole on
+// import Vconsole from 'vconsole'
+// new Vconsole()
+
 Vue.prototype.$get = get
 Vue.prototype.$post = post
 Vue.prototype.$api = api

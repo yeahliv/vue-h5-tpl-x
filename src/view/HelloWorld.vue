@@ -28,10 +28,8 @@ export default {
     },
 
 
-    /**
-     * When I need to make an HTTP request for data, I typically use the following approach
-     * Copy the code snippet directly and modify the part east
-     */
+    // When I need to make an HTTP request for data, I typically use the following approach
+    // Copy the code snippet directly and modify the part east
     async get2() {
       let { data: res } = await this.$api.hl.getHelloWorld({ tag: true })
       let {code, data, success, msg} = res

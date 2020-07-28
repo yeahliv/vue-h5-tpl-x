@@ -1,7 +1,4 @@
-/**
- * http request
- * @description I'll fill in more Axios tricks later on ...
- */
+// http request
 
 import axios from 'axios'
 

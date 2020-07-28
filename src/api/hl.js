@@ -1,13 +1,9 @@
-/**
- * If you have your own requirements for base_URL
- * You can change the way you like
- * Global or AXIOS configuration or environment variable configuration
- */
+// If you have your own requirements for base_URL
+// You can change the way you like
+// Global or AXIOS configuration or environment variable configuration
 
-/**
- * But most companies have chaotic technology departments
- * I recommend using the base URL in my way
- */
+// But most companies have chaotic technology departments
+// I recommend using the base URL in my way
 
 import { get, post } from '../utils/http'
 
