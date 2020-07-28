@@ -156,7 +156,6 @@ html {
 }
 .clearfix:before,
 .clearfix:after {
-  /*清楚浮动*/
   content: "";
   display: table;
 }

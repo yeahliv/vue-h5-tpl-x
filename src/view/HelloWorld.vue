@@ -30,6 +30,7 @@ export default {
 
     // When I need to make an HTTP request for data, I typically use the following approach
     // Copy the code snippet directly and modify the part east
+    // 当我需要获取数据时，我通常都是封装好再调用，以下面这个代码块直接复制过去会写得更快
     async get2() {
       let { data: res } = await this.$api.hl.getHelloWorld({ tag: true })
       let {code, data, success, msg} = res

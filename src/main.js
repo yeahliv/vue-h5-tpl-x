@@ -9,6 +9,7 @@ import { get, post } from './utils/http'
 import api from './api/index'
 
 // If you need real machine debugging, turn vconsole on
+// 如果你要用到 vconsole 就打开它
 // import Vconsole from 'vconsole'
 // new Vconsole()
 

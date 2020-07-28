@@ -1,4 +1,5 @@
-// http request
+// Http request
+// Http 请求
 
 import axios from 'axios'
 
@@ -6,6 +7,7 @@ axios.defaults.timeout = 50000
 
 /**
  * Get request
+ * Get 请求
  * @param {String} url 
  * @param {String} params 
  */
@@ -27,6 +29,7 @@ export const get = (url, params) => {
 
 /**
  * Post request
+ * Post 请求
  * @param {String} url 
  * @param {String} params 
  */
